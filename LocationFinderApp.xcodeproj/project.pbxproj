@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EA441B42293F4AA00E29152 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA441B32293F4AA00E29152 /* MapViewController.swift */; };
+		9EA441B72293F50C00E29152 /* FTNoteMarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EA441B52293F50C00E29152 /* FTNoteMarkerView.xib */; };
+		9EA441B82293F50C00E29152 /* FTNoteMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA441B62293F50C00E29152 /* FTNoteMarkerView.swift */; };
+		9EA441BD2293FA1000E29152 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA441BC2293FA1000E29152 /* BaseViewController.swift */; };
+		9EFE87A82294469400159435 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFE87A72294469400159435 /* PlaceTableViewCell.swift */; };
+		BDBCE2062293256700149459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCE2052293256700149459 /* AppDelegate.swift */; };
+		BDBCE20B2293256700149459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBCE2092293256700149459 /* Main.storyboard */; };
+		BDBCE20E2293256700149459 /* LocationFinderApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDBCE20C2293256700149459 /* LocationFinderApp.xcdatamodeld */; };
+		BDBCE2102293256900149459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBCE20F2293256900149459 /* Assets.xcassets */; };
+		BDBCE2132293256900149459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBCE2112293256900149459 /* LaunchScreen.storyboard */; };
+		BDBCE21B22932A5800149459 /* LanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCE21A22932A5800149459 /* LanguageViewController.swift */; };
+		BDBCE21D22932BB500149459 /* GMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCE21C22932BB500149459 /* GMapViewController.swift */; };
+		BDBCE21F2293486700149459 /* EnterLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCE21E2293486700149459 /* EnterLocationViewController.swift */; };
+		BDBCE22122934B2D00149459 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCE22022934B2D00149459 /* Place.swift */; };
+		BDBCE2242293525F00149459 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDBCE2262293525F00149459 /* Localizable.strings */; };
+		BDBCE22A229372AC00149459 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCE229229372AC00149459 /* CoreDataManager.swift */; };
+		BDBCE22C2293882E00149459 /* SavedLocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCE22B2293882E00149459 /* SavedLocationsViewController.swift */; };
+		BDBCE2342293DAE200149459 /* LocationFinderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCE2332293DAE200149459 /* LocationFinderAppTests.swift */; };
+		BDBCE2462294623400149459 /* CommonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCE2452294623400149459 /* CommonConstants.swift */; };
+		BDBCE2482294684D00149459 /* LanguagesCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCE2472294684D00149459 /* LanguagesCodes.swift */; };
+		C5135637EECC82A3D82E51F4 /* Pods_LocationFinderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB98E6B67F38813BBD268D75 /* Pods_LocationFinderApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDBCE2362293DAE200149459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBCE1FA2293256700149459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBCE2012293256700149459;
+			remoteInfo = LocationFinderApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D5621C0631EB6BD7882877D /* Pods-LocationFinderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationFinderApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocationFinderApp/Pods-LocationFinderApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9EA441B32293F4AA00E29152 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9EA441B52293F50C00E29152 /* FTNoteMarkerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTNoteMarkerView.xib; sourceTree = "<group>"; };
+		9EA441B62293F50C00E29152 /* FTNoteMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTNoteMarkerView.swift; sourceTree = "<group>"; };
+		9EA441BC2293FA1000E29152 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9EFE87A72294469400159435 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		BB98E6B67F38813BBD268D75 /* Pods_LocationFinderApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationFinderApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBCE2022293256700149459 /* LocationFinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationFinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBCE2052293256700149459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDBCE20A2293256700149459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDBCE20D2293256700149459 /* LocationFinderApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocationFinderApp.xcdatamodel; sourceTree = "<group>"; };
+		BDBCE20F2293256900149459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDBCE2122293256900149459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDBCE2142293256900149459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBCE21A22932A5800149459 /* LanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageViewController.swift; sourceTree = "<group>"; };
+		BDBCE21C22932BB500149459 /* GMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMapViewController.swift; sourceTree = "<group>"; };
+		BDBCE21E2293486700149459 /* EnterLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterLocationViewController.swift; sourceTree = "<group>"; };
+		BDBCE22022934B2D00149459 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		BDBCE2252293525F00149459 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDBCE2272293528700149459 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDBCE229229372AC00149459 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		BDBCE22B2293882E00149459 /* SavedLocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedLocationsViewController.swift; sourceTree = "<group>"; };
+		BDBCE2312293DAE200149459 /* LocationFinderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationFinderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBCE2332293DAE200149459 /* LocationFinderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFinderAppTests.swift; sourceTree = "<group>"; };
+		BDBCE2352293DAE200149459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBCE2452294623400149459 /* CommonConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonConstants.swift; sourceTree = "<group>"; };
+		BDBCE2472294684D00149459 /* LanguagesCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguagesCodes.swift; sourceTree = "<group>"; };
+		C388921F264417C9F0800BE6 /* Pods-LocationFinderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationFinderApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocationFinderApp/Pods-LocationFinderApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBCE1FF2293256700149459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5135637EECC82A3D82E51F4 /* Pods_LocationFinderApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBCE22E2293DAE200149459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC931FB41DCD99F2DCA0575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB98E6B67F38813BBD268D75 /* Pods_LocationFinderApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12625A8E01071E862920FB3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D5621C0631EB6BD7882877D /* Pods-LocationFinderApp.debug.xcconfig */,
+				C388921F264417C9F0800BE6 /* Pods-LocationFinderApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EFE87A62294467200159435 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				9EFE87A72294469400159435 /* PlaceTableViewCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		BDBCE1F92293256700149459 = {
+			isa = PBXGroup;
+			children = (
+				BDBCE2042293256700149459 /* LocationFinderApp */,
+				BDBCE2322293DAE200149459 /* LocationFinderAppTests */,
+				BDBCE2032293256700149459 /* Products */,
+				12625A8E01071E862920FB3C /* Pods */,
+				0BC931FB41DCD99F2DCA0575 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBCE2032293256700149459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCE2022293256700149459 /* LocationFinderApp.app */,
+				BDBCE2312293DAE200149459 /* LocationFinderAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBCE2042293256700149459 /* LocationFinderApp */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCE2442294621C00149459 /* Constants */,
+				BDBCE2422293E05A00149459 /* AppDelegate */,
+				9EFE87A62294467200159435 /* CustomCell */,
+				BDBCE23C2293DF9A00149459 /* LanguageSelection */,
+				BDBCE23B2293DF6300149459 /* SavingLocations */,
+				BDBCE2282293728A00149459 /* CoreData */,
+				BDBCE23D2293DFAC00149459 /* GoogleMapController */,
+				BDBCE23E2293DFC100149459 /* EnterDesiredLocation */,
+				BDBCE23F2293DFED00149459 /* Model */,
+				BDBCE2402293E00400149459 /* StoryBoard */,
+				BDBCE2412293E00F00149459 /* Localization */,
+				BDBCE20F2293256900149459 /* Assets.xcassets */,
+				BDBCE2142293256900149459 /* Info.plist */,
+			);
+			path = LocationFinderApp;
+			sourceTree = "<group>";
+		};
+		BDBCE2282293728A00149459 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCE20C2293256700149459 /* LocationFinderApp.xcdatamodeld */,
+				BDBCE229229372AC00149459 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		BDBCE2322293DAE200149459 /* LocationFinderAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCE2332293DAE200149459 /* LocationFinderAppTests.swift */,
+				BDBCE2352293DAE200149459 /* Info.plist */,
+			);
+			path = LocationFinderAppTests;
+			sourceTree = "<group>";
+		};
+		BDBCE23B2293DF6300149459 /* SavingLocations */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCE22B2293882E00149459 /* SavedLocationsViewController.swift */,
+			);
+			path = SavingLocations;
+			sourceTree = "<group>";
+		};
+		BDBCE23C2293DF9A00149459 /* LanguageSelection */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCE21A22932A5800149459 /* LanguageViewController.swift */,
+				BDBCE2472294684D00149459 /* LanguagesCodes.swift */,
+			);
+			path = LanguageSelection;
+			sourceTree = "<group>";
+		};
+		BDBCE23D2293DFAC00149459 /* GoogleMapController */ = {
+			isa = PBXGroup;
+			children = (
+				9EA441BC2293FA1000E29152 /* BaseViewController.swift */,
+				BDBCE21C22932BB500149459 /* GMapViewController.swift */,
+				9EA441B32293F4AA00E29152 /* MapViewController.swift */,
+				9EA441B62293F50C00E29152 /* FTNoteMarkerView.swift */,
+				9EA441B52293F50C00E29152 /* FTNoteMarkerView.xib */,
+			);
+			path = GoogleMapController;
+			sourceTree = "<group>";
+		};
+		BDBCE23E2293DFC100149459 /* EnterDesiredLocation */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCE21E2293486700149459 /* EnterLocationViewController.swift */,
+			);
+			path = EnterDesiredLocation;
+			sourceTree = "<group>";
+		};
+		BDBCE23F2293DFED00149459 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCE22022934B2D00149459 /* Place.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDBCE2402293E00400149459 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCE2112293256900149459 /* LaunchScreen.storyboard */,
+				BDBCE2092293256700149459 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		BDBCE2412293E00F00149459 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCE2262293525F00149459 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		BDBCE2422293E05A00149459 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCE2052293256700149459 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BDBCE2442294621C00149459 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCE2452294623400149459 /* CommonConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBCE2012293256700149459 /* LocationFinderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBCE2172293256900149459 /* Build configuration list for PBXNativeTarget "LocationFinderApp" */;
+			buildPhases = (
+				2ECA0E1516B6B1054B635054 /* [CP] Check Pods Manifest.lock */,
+				BDBCE1FE2293256700149459 /* Sources */,
+				BDBCE1FF2293256700149459 /* Frameworks */,
+				BDBCE2002293256700149459 /* Resources */,
+				5F7C1A8668BF79C27FC40A93 /* [CP] Embed Pods Frameworks */,
+				8FC1DF02AF5D70B3C0FE8C13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationFinderApp;
+			productName = LocationFinderApp;
+			productReference = BDBCE2022293256700149459 /* LocationFinderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDBCE2302293DAE200149459 /* LocationFinderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBCE23A2293DAE200149459 /* Build configuration list for PBXNativeTarget "LocationFinderAppTests" */;
+			buildPhases = (
+				BDBCE22D2293DAE200149459 /* Sources */,
+				BDBCE22E2293DAE200149459 /* Frameworks */,
+				BDBCE22F2293DAE200149459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBCE2372293DAE200149459 /* PBXTargetDependency */,
+			);
+			name = LocationFinderAppTests;
+			productName = LocationFinderAppTests;
+			productReference = BDBCE2312293DAE200149459 /* LocationFinderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBCE1FA2293256700149459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Atul Bhaisare";
+				TargetAttributes = {
+					BDBCE2012293256700149459 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					BDBCE2302293DAE200149459 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BDBCE2012293256700149459;
+					};
+				};
+			};
+			buildConfigurationList = BDBCE1FD2293256700149459 /* Build configuration list for PBXProject "LocationFinderApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = BDBCE1F92293256700149459;
+			productRefGroup = BDBCE2032293256700149459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBCE2012293256700149459 /* LocationFinderApp */,
+				BDBCE2302293DAE200149459 /* LocationFinderAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBCE2002293256700149459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBCE2132293256900149459 /* LaunchScreen.storyboard in Resources */,
+				BDBCE2242293525F00149459 /* Localizable.strings in Resources */,
+				BDBCE2102293256900149459 /* Assets.xcassets in Resources */,
+				BDBCE20B2293256700149459 /* Main.storyboard in Resources */,
+				9EA441B72293F50C00E29152 /* FTNoteMarkerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBCE22F2293DAE200149459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ECA0E1516B6B1054B635054 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocationFinderApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F7C1A8668BF79C27FC40A93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LocationFinderApp/Pods-LocationFinderApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Loki/Loki.framework",
+				"${BUILT_PRODUCTS_DIR}/TWMessageBarManager/TWMessageBarManager.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Loki.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWMessageBarManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationFinderApp/Pods-LocationFinderApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FC1DF02AF5D70B3C0FE8C13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LocationFinderApp/Pods-LocationFinderApp-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationFinderApp/Pods-LocationFinderApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBCE1FE2293256700149459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBCE2462294623400149459 /* CommonConstants.swift in Sources */,
+				BDBCE2062293256700149459 /* AppDelegate.swift in Sources */,
+				BDBCE21B22932A5800149459 /* LanguageViewController.swift in Sources */,
+				BDBCE20E2293256700149459 /* LocationFinderApp.xcdatamodeld in Sources */,
+				BDBCE21F2293486700149459 /* EnterLocationViewController.swift in Sources */,
+				BDBCE21D22932BB500149459 /* GMapViewController.swift in Sources */,
+				9EA441BD2293FA1000E29152 /* BaseViewController.swift in Sources */,
+				BDBCE22A229372AC00149459 /* CoreDataManager.swift in Sources */,
+				9EA441B82293F50C00E29152 /* FTNoteMarkerView.swift in Sources */,
+				BDBCE22122934B2D00149459 /* Place.swift in Sources */,
+				BDBCE2482294684D00149459 /* LanguagesCodes.swift in Sources */,
+				9EA441B42293F4AA00E29152 /* MapViewController.swift in Sources */,
+				BDBCE22C2293882E00149459 /* SavedLocationsViewController.swift in Sources */,
+				9EFE87A82294469400159435 /* PlaceTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBCE22D2293DAE200149459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBCE2342293DAE200149459 /* LocationFinderAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDBCE2372293DAE200149459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBCE2012293256700149459 /* LocationFinderApp */;
+			targetProxy = BDBCE2362293DAE200149459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDBCE2092293256700149459 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBCE20A2293256700149459 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDBCE2112293256900149459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBCE2122293256900149459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BDBCE2262293525F00149459 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBCE2252293525F00149459 /* en */,
+				BDBCE2272293528700149459 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDBCE2152293256900149459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDBCE2162293256900149459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDBCE2182293256900149459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5621C0631EB6BD7882877D /* Pods-LocationFinderApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J285547H4X;
+				INFOPLIST_FILE = LocationFinderApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atul.LocationFinderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDBCE2192293256900149459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C388921F264417C9F0800BE6 /* Pods-LocationFinderApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J285547H4X;
+				INFOPLIST_FILE = LocationFinderApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atul.LocationFinderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDBCE2382293DAE200149459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J285547H4X;
+				INFOPLIST_FILE = LocationFinderAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atul.LocationFinderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationFinderApp.app/LocationFinderApp";
+			};
+			name = Debug;
+		};
+		BDBCE2392293DAE200149459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J285547H4X;
+				INFOPLIST_FILE = LocationFinderAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atul.LocationFinderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationFinderApp.app/LocationFinderApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBCE1FD2293256700149459 /* Build configuration list for PBXProject "LocationFinderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBCE2152293256900149459 /* Debug */,
+				BDBCE2162293256900149459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBCE2172293256900149459 /* Build configuration list for PBXNativeTarget "LocationFinderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBCE2182293256900149459 /* Debug */,
+				BDBCE2192293256900149459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBCE23A2293DAE200149459 /* Build configuration list for PBXNativeTarget "LocationFinderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBCE2382293DAE200149459 /* Debug */,
+				BDBCE2392293DAE200149459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDBCE20C2293256700149459 /* LocationFinderApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDBCE20D2293256700149459 /* LocationFinderApp.xcdatamodel */,
+			);
+			currentVersion = BDBCE20D2293256700149459 /* LocationFinderApp.xcdatamodel */;
+			path = LocationFinderApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDBCE1FA2293256700149459 /* Project object */;
+}

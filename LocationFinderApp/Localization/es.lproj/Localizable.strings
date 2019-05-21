@@ -1,0 +1,14 @@
+"kWelcomeKey" = "BIENVENIDA";
+"kLanguageSelection" = "ELIGE TU IDIOMA";
+"kAddButtonTitle" = "AÑADIR";
+"kDescriptionTxtViewPlaceHolder" = "Introduzca la descripción de la dirección antes mencionada.";
+"kAddressTxtViewPlaceHolder" = "Introduce la dirección.";
+"kPlacesVCTitle" = "Lugares";
+"kLocateAddressVC" = "LOCALIZAR UNA DIRECCIÓN";
+
+"kShareAlertTitle" = "Alerta";
+"kShareAlertMessage" = "¿Cómo te gustaría compartir tu ubicación?";
+"kShareViaMessage" = "Compartir vía mensaje";
+"kShareViaEmail" = "Compartir via correo electrónico";
+"kCancel" = "Cancelar";
+

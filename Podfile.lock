@@ -1,0 +1,44 @@
+PODS:
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - IQKeyboardManagerSwift (6.3.0)
+  - Loki (0.1.0)
+  - TWMessageBarManager (1.8.1)
+  - "UITextView+Placeholder (1.2.1)"
+
+DEPENDENCIES:
+  - GoogleMaps
+  - IQKeyboardManagerSwift
+  - Loki (from `https://github.com/mojidabckuu/Loki.git`)
+  - TWMessageBarManager
+  - "UITextView+Placeholder"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+    - IQKeyboardManagerSwift
+    - TWMessageBarManager
+    - "UITextView+Placeholder"
+
+EXTERNAL SOURCES:
+  Loki:
+    :git: https://github.com/mojidabckuu/Loki.git
+
+CHECKOUT OPTIONS:
+  Loki:
+    :commit: 2d64a0c7d53b68d5170f74cc14a60b1303178854
+    :git: https://github.com/mojidabckuu/Loki.git
+
+SPEC CHECKSUMS:
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  Loki: f2d862e02c932101b9d13df12b76944860cda1c3
+  TWMessageBarManager: fd84e7948ba7968a2b5d9454859135761214ec56
+  "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
+
+PODFILE CHECKSUM: 6c4ed3810600e969d66cbe801954eef1c18bf570
+
+COCOAPODS: 1.5.3

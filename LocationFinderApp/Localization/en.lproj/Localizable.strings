@@ -1,0 +1,16 @@
+"kWelcomeKey" = "WELCOME";
+"kLanguageSelection" = "SELECT YOUR LANGUAGE";
+"kAddButtonTitle" = "ADD";
+"kDescriptionTxtViewPlaceHolder" = "Enter the description for the above mentioned address.";
+"kAddressTxtViewPlaceHolder" = "Enter the address.";
+"kPlacesVCTitle" = "PLACES";
+"kLocateAddressVC" = "Locate an address";
+
+"kShareAlertTitle" = "Alert";
+"kShareAlertMessage" = "How would you like to share your location?";
+"kShareViaMessage" = "Share Via Message";
+"kShareViaEmail" = "Share Via Email";
+"kCancel" = "Cancel";
+
+
+
